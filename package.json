@@ -13,6 +13,8 @@
   },
   "scripts": {
     "start": "craco start",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "build": "craco build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
